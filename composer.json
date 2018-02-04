@@ -1,12 +1,14 @@
 {
 	"name": "socola/facebook-graph",
 	"description": "Class php for graph facebook",
-	"type": "php",
+	"homepage": "https://github.com/SocolaDaiCa/Facebook-Graph",
+	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Socola",
-			"email": "tokentien@gmail.com"
+			"email": "tokentien@gmail.com",
+			"role": "Developer"
 		}
 	],
 	"minimum-stability": "dev",
