@@ -1,7 +1,7 @@
 <?php
 	namespace Socola\FacebookGraph;
 	/**
-	* 
+	*
 	*/
 	class FacebookGraph
 	{
@@ -15,4 +15,5 @@
 			$this->token = $token;
 		}
 	}
+	/* mot hau ba*/
 ?>
