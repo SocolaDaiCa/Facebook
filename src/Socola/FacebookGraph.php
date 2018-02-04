@@ -14,6 +14,10 @@
 		{
 			$this->token = $token;
 		}
+		public static function test()
+		{
+			echo "test facebook gra[jh";
+		}
 	}
 	/* mot hau ba*/
 ?>
