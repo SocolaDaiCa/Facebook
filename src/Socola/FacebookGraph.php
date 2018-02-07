@@ -25,10 +25,10 @@
 			$endPoint = $this->endPoint . ($version ?? $this->version);
 			$json = Curl::getJSON($endPoint . '/' . $target, $param);
 			$key = key((array)$json);
-			$data = $json->{$key}->data;
 			if(empty($json->{$key}->paging->next)){
 				return $json;
 			}
+			$data = $json->{$key}->data;
 			$url = $json->{$key}->paging->next;
 			do{
 				$json = Curl::getJSON($url);
